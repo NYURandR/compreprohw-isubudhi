@@ -1,0 +1,44 @@
+---
+title: "Computational Reproducibility"
+author: "Fred LaPolla"
+date: "10/14/2020"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown file
+
+This file, an R Markdown lets you combine plain text, in the white spaces, and code chunks, in the gray. The text is not really code, but can be used to communicate, while the code chunks let you combine the actual analysis you are running alongside the results. This means someone can see exactly what you did to get your results.
+
+To add a chunk either click on the green Insert button and choose R or hit Command + Option + i (Mac) or Ctrl + Alt + i (PC)
+
+```{r}
+3+3
+```
+
+## Homework
+
+1) Create an R Project to pull this file from GitHub. 
+
+2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
+
+```{r}
+# Wilson et al suggests using software where each step that is used to process data can be delineated and explained why it was used for that purpose. One such tool is R, which is very useful in that regard. We can (1) show our work by listing all the commands used, in order, to sort through and analyze the data, and (2) we can insert comments with a hastag (such as what I'm doing here) in order to record and explain certain steps so that other people can follow the flow of reasoning in data analysis. This allows for other researchers to reproduce the findings pulled from your analysis and serves as a record of what was done.
+```
+
+
+3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
+
+```{r}
+sqrt(4)^13
+```
+
+4) Push this homework to the GitHub repository for the homework. 
+
+
+
+
+
